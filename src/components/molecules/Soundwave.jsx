@@ -18,17 +18,7 @@ const Soundwave = () => {
           </Nav>
         </Container>
       </Navbar>
-        </header>
-//        <div>
-//            <Logo />
-//            <Discover />
-//            <Join />
-//        </div>
-
-
-
-        
-        
+        </header>        
     )
 }
 

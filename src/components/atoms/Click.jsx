@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 const Click = () => {
   return (
     <div className="click" >
-      <Button
+          <Button
         variant="primary">
           Join Now
       </Button>

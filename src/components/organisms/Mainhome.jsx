@@ -5,7 +5,6 @@ const Mainhome = () => {
   return (
     <div>
         <Background/>
-
     </div>
   )
 }
