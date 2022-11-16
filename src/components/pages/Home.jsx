@@ -1,9 +1,12 @@
 import React from 'react';
+import Headerhome from '../pagehome/organisms/Headerhome';
+import Mainhome from '../pagehome/organisms/Mainhome';
 
 const Home = () => {
     return (
         <div>
-            <h1>Hola Mundo</h1>
+            <Headerhome />
+            <Mainhome />
         </div>
     )
 }
