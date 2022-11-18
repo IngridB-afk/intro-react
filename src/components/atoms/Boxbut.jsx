@@ -10,7 +10,7 @@ import album from '../../images/covers.jpg';
 
 const Boxbut = () => {
     return (
-        <div id='discover' className='d-flex discover-bg flex-grow-1'>
+        <div id='disc' className='d-flex discover-bg flex-grow-1'>
             <Container className='d-flex flex-column justify-content-center'>
                 <Row>
                     <Col className='pt-3'>

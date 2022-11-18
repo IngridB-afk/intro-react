@@ -15,8 +15,8 @@ const Menu = () => {
                 <Navbar.Brand href="#Logo" className='soundlogo'><img src={logo} className="d-inline-block align-top me-2"alt="logo"/> Soundwave</Navbar.Brand>
               </Nav>
               <Nav className="ms-auto">
-                <Nav.Link href="#Discover" className='over'>Discover</Nav.Link>
-                <Nav.Link href="#Joined" className='join'>Join</Nav.Link>
+                <Nav.Link href="#Discover" className='discover'>Discover</Nav.Link>
+                <Nav.Link href="#Joined" className='joined'>Join</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
