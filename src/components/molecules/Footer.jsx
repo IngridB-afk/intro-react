@@ -10,7 +10,7 @@ import Facebook from '../../images/facebook.svg';
 const Footer = () => {
   return (
     <footer>
-    <Navbar bg="dark" variant="dark">
+    <Navbar variant="dark">
         <Container>
         <Nav className="me-auto">
             <Nav.Link href="#AboutUs">About Us</Nav.Link>

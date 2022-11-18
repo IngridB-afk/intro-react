@@ -1,7 +1,10 @@
 import  './style/App.scss';
+
 import Home from './components/pages/Home';        
 import Join from './components/pages/Join';        
-import Discover from './components/pages/Discover'; 
+import Discover from './components/pages/Discover';
+
+
 
 function App() {
   return (
