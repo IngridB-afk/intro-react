@@ -5,6 +5,7 @@ import logo from '../../images/logo.svg';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
     return (
@@ -12,11 +13,11 @@ const Menu = () => {
         <Navbar variant="dark">
             <Container>
               <Nav className="me-auto">
-                <Navbar.Brand href="#Logo" className='soundlogo'><img src={logo} className="d-inline-block align-top me-2"alt="logo"/> Soundwave</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/'><img src={logo} className="d-inline-block align-top me-2"alt="logo"/> Soundwave</Navbar.Brand>
               </Nav>
               <Nav className="ms-auto">
-                <Nav.Link href="#Discover" className='discover'>Discover</Nav.Link>
-                <Nav.Link href="#Joined" className='joined'>Join</Nav.Link>
+                <Nav.Link as={Link} to='/discover'>Discover</Nav.Link>
+                <Nav.Link as={Link} to='/joined'>Join</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
