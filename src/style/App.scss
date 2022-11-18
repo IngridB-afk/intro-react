@@ -6,25 +6,41 @@
     color: white;
     font-family: Poppins, sans-serif;
   } 
-
-  .home img{
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .box{
-    display: flex;
-    flex-direction: column;
-    h1{
-      font-weight: 350;
-      font-size: 50px;
+//<<-----------------------Home----------------------------->>  
+  #home{
+    .home img{
+      height: 500px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    #feel{
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;         
+      justify-content: center;
+    }
+}
+//<<-----------------------Disc----------------------------->>
+#music{
+  align-self: end;
+  .discover-but{
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    .discover-but1, .discover-but2, .discover-but3{
+      margin-right: 2%;
+      padding: 2.5% 5%;
+      background-color: #211F27;
     }
     p{
-      font-size: 15px;
-      font-weight: 350;
+      margin: 0% !important;
     }
   }
-
+}
+.covers{
+  width: 375px;
+  height: 375px;
+}
 
 //<<-----------------------Form----------------------------->>
   .boxsub{ 
@@ -32,32 +48,35 @@
     border-radius: 10px;
     margin-bottom: 30px;
   
-    form {
-      padding: 50px;
-      font-size: 1rem;
-    }
   }
   .join {
     h1 {
       font-size: 3rem;
       font-weight: 700;
-  
       span {
         color: #D2007B;
       }
     }
+    #sub{
+      background-color: #211F27 !important;
+    }
+  }
+  #formBasicEmail, #formBasicPassword{
+    background-color: #211F27 !important;
+    border: 1px solid #0D6EFD !important;
   }
 
+//<<-----------------------Footer----------------------------->>
 footer{
   background-color: #211F27;
+  font-weight: bold;
 }
   
-  
+//<<-----------------------Default----------------------------->>  
 .App > div {
   height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 
 .App-logo {
@@ -71,7 +90,7 @@ footer{
   }
 }
 
-/*.App-header {
+.App-header {
   background-color: #302E3A;
   min-height: 100vh;
   display: flex;
@@ -79,7 +98,7 @@ footer{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}*/
+}
 
 /*.App-link {
   color: #61dafb;

@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom';
 const Menu = () => {
     return (
         <header>
-        <Navbar variant="dark">
+        <Navbar className="pt-4" variant="dark">
             <Container>
               <Nav className="me-auto">
-                <Navbar.Brand as={Link} to='/'><img src={logo} className="d-inline-block align-top me-2"alt="logo"/> Soundwave</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/' className='d-flex align-items-center'><img src={logo} className="d-inline-block align-top me-2"alt="logo"/> Soundwave</Navbar.Brand>
               </Nav>
               <Nav className="ms-auto">
                 <Nav.Link as={Link} to='/discover'>Discover</Nav.Link>

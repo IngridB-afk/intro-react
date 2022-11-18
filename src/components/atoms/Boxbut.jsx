@@ -13,12 +13,12 @@ const Boxbut = () => {
         <div id='disc' className='d-flex discover-bg flex-grow-1'>
             <Container className='d-flex flex-column justify-content-center'>
                 <Row>
-                    <Col className='pt-3'>
+                    <Col className='pt-3' id="music">
                     <h2 className='display-3 fw-normal mb-5'>Discover new music</h2>
                     <div className="discover-but">
                         <div className="discover-but1">
                             <img src={but1} alt="charts" />
-                            <p>Charts</p>
+                            <h6>Charts</h6>
                         </div>
                         <div className="discover-but2">
                             <img src={but2} alt="albums" />
@@ -33,7 +33,7 @@ const Boxbut = () => {
                     </Col>
                     <Col className='text-center'>
                     <section className="discoverimg">
-                        <img src={album} alt="covers" />
+                        <img src={album} className="covers" alt="covers" />
                     </section>
                     </Col>
                 </Row>
