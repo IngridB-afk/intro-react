@@ -1,4 +1,18 @@
-@import "App.scss";
+@import "./App.scss";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+$grid-breakpoints: (
+  phone: 576px,
+  tablet: 768px,
+  tablet-lg: 992px,
+  desktop: 1200px,
+  desktop-lg: 1400px,
+  desktop-xl: 1600px
+);
+
+$primary-color: #302E3A;
+$primary-color-alt: #FFFFFF;
+$secondary: #211F27;
 
 body {
   margin: 0;
@@ -7,7 +21,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #302E3A;
 }
 
 code {

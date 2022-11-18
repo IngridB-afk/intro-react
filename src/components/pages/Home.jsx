@@ -1,12 +1,14 @@
 import React from 'react';
-import Headerhome from '../pagehome/organisms/Headerhome';
-import Mainhome from '../pagehome/organisms/Mainhome';
+import Menu from '../molecules/Menu';
+import Footer from '../molecules/Footer';
+import Box from '../atoms/Box';
 
 const Home = () => {
     return (
         <div>
-            <Headerhome />
-            <Mainhome />
+            <Menu />
+            <Box/>
+            <Footer/>
         </div>
     )
 }

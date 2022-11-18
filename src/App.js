@@ -1,11 +1,14 @@
 import  './style/App.scss';
-import Home from './components/pages/Home';
+import Home from './components/pages/Home';        
+import Join from './components/pages/Join';        
+import Discover from './components/pages/Discover'; 
 
 function App() {
   return (
     <div className="App">
-<Home/>
-
+      <Home/>
+      <Discover/>
+      <Join/>
     </div>
   );
 }
